@@ -15,5 +15,21 @@ def is_anagrama (palabra1, palabra2):
         return False
 
 
+
+
+
+def is_palindromo (palabra1, palabra2):
+
+    if sorted(palabra1) == sorted(palabra2):
+        return True
+    else:
+        return False
+    
+
+print ("el palindromo es:")
+print (is_palindromo(palabra1, palabra2 ))
+print ("el anagrama es:")
 print (is_anagrama(palabra1, palabra2))
+
+
 
